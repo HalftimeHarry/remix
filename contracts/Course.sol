@@ -9,8 +9,16 @@ pragma solidity ^0.8.7;
 
 contract Course {
 
-    uint256 public name;
-    uint256 public owner;
+
+    struct CourseInformation {
+        string courseName;
+    }
+
+    function addCourseInformation(
+        string memory _courseName
+    ) public {
+
+    }
 
     Hole[] public hole;
 
@@ -23,16 +31,14 @@ contract Course {
         uint256 holeNumber;
     }
 
-
     function addHole(
         string memory _name,
         uint256 _pinPosition,
         uint256 _rating,
         uint256 _holeNumber
-    ) public{
+    ) public {
         hole.push(Hole(_name, _pinPosition, _rating, _holeNumber));
         holeToPinPosition[_name] = _pinPosition;
     }
-
 
 }
