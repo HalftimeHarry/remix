@@ -9,6 +9,19 @@
 				"inputs": [
 					{
 						"internalType": "string",
+						"name": "_courseName",
+						"type": "string"
+					}
+				],
+				"name": "addCourseInformation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
 						"name": "_name",
 						"type": "string"
 					},
@@ -85,32 +98,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -143,11 +130,11 @@
 	},
 	"sources": {
 		"contracts/Course.sol": {
-			"keccak256": "0x9893ac1a96cddd2a972ca6ca3978f97190810d3945fecc253780f4bb77a42e06",
+			"keccak256": "0x7e23b18bd6d86b0e70e260803c401a212c6e30543baf3daf1cb49d5d50c43a78",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://906868c3d79097b7ead10f76c2930705e4a76b8b351f2cbaac1118e3366be44b",
-				"dweb:/ipfs/QmY29YT8tXqpp91Lw8hoxgpvXuyexSYSLw1tX6ezJQcByJ"
+				"bzz-raw://9d9e2e53dee0d2ecbfb24380344168992d95d0339f0d6b387e2e5d4b07427143",
+				"dweb:/ipfs/QmUad2cf6zZ2owMRmb7SktwzCXSb4Ymd76726agUYaoT5c"
 			]
 		}
 	},
