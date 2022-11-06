@@ -54,6 +54,25 @@
 						"type": "uint256"
 					}
 				],
+				"name": "courseName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "courseName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"name": "hole",
 				"outputs": [
 					{
@@ -130,11 +149,11 @@
 	},
 	"sources": {
 		"contracts/Course.sol": {
-			"keccak256": "0xcd1072205dc059b2ecc86359bb1d4bc30a07f3c2a8f06cda2ee59ab6f3103863",
+			"keccak256": "0x895660e5dad28fe1d79ad48e7afeee9e64489a174025f35f144dd9124ffc89a1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://748bf619c38a14a0c06999d55f8d9e598c68cab1200ce194efd09023acae2c8a",
-				"dweb:/ipfs/QmQV5Ab4NSE6PcTXifv8jWG86FdhmQVMh9xW3TPvEcSm8L"
+				"bzz-raw://ae2e79829d26b5b01629e35a9028a513c7fe53ee20b495eddfd2f48127846c5e",
+				"dweb:/ipfs/QmdrQ5Wt29VTwTxj8EaRsBmhtHFbeiPETPJNEcoaHGsj7x"
 			]
 		}
 	},

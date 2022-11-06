@@ -8,18 +8,20 @@ pragma solidity ^0.8.7;
 
 contract Course {
 
+    function addCourseInformation(
+        string memory _courseName
+    ) public {
+        // this only needs 1 string name example Morley Field it will be at index 0
+        courseName.push(CourseInformation(_courseName));
+    }
 
     struct CourseInformation {
         string courseName;
     }
 
-    function addCourseInformation(
-        string memory _courseName
-    ) public {
-
-    }
 
     Hole[] public hole;
+    CourseInformation[] public courseName;
 
     mapping(string => uint256) public holeToPinPosition;
 
