@@ -3,7 +3,8 @@ pragma solidity ^0.8.7;
 
 /**
  * @title Course contract
- * @notice A Course contract that holds a buleprint for a course
+ * @notice A Course contract that holds a buleprint for a course 
+ * @add github to the mix
  */
 
 contract Course {
