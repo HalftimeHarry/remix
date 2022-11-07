@@ -7,6 +7,11 @@ pragma solidity ^0.8.7;
  */
 
 contract Course {
+// I want to use this CourseInformation[0] to help when creating holes currently when
+// adding a contract you must manually type in the name of the course each
+// time this leeds to typos so hopfully you can figure out how to make consistant
+// I feel the reason is that to enter strings and concat strings is difficult in solidity
+    CourseInformation[] public courseName;
 
     function addCourseInformation(
         string memory _courseName
@@ -19,9 +24,7 @@ contract Course {
         string courseName;
     }
 
-
     Hole[] public hole;
-    CourseInformation[] public courseName;
 
     mapping(string => uint256) public holeToPinPosition;
 
@@ -33,6 +36,7 @@ contract Course {
     }
 
     function addHole(
+        // example Morley Field Hole 1
         string memory _name,
         uint256 _pinPosition,
         uint256 _rating,
